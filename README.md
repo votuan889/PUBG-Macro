@@ -10,7 +10,7 @@ License key: Cung cấp miễn phí khi join Server
     * Bạn **BẮT BUỘC** phải cài đặt driver **Logitech G HUB** phiên bản 2021 hoặc driver **LGS Blue Drive**.
     * Sau khi cài đặt, hãy **tắt tính năng tự động cập nhật** của G HUB để tránh các lỗi không tương thích trong tương lai.
     * Tải Logitech G HUB tại: [Link tải G HUB của bạn]
-=> Hỗ trợ tất cả loại chuột nếu phát hiện không có GHUB 2021 sẽ tự động chạy driver ảo hóa cấp kernel dự phòng cho các loại chuột khác
+**Hỗ trợ tất cả loại chuột nếu phát hiện không có GHUB 2021 sẽ tự động chạy driver ảo hóa cấp kernel dự phòng cho các loại chuột khác**. Bỏ qua bước này nếu không sử dụng chuột Logitech
 
 2.  **Chạy với Quyền Administrator:**
     * Cả **Logitech G HUB** và phần mềm macro (`PUBG_Macro.exe`) đều cần được chạy với quyền quản trị (Administrator).
