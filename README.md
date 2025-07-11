@@ -2,7 +2,8 @@
 =====================================================
 
 Chào mừng đến với phần mềm macro PUBG. Vui lòng đọc kỹ hướng dẫn dưới đây để đảm bảo phần mềm hoạt động chính xác.
-
+Discord server: [Thanos Macro](https://discord.gg/FRKhjYWj)
+License key: Cung cấp miễn phí khi join Server
 ### **I. YÊU CẦU CÀI ĐẶT BAN ĐẦU**
 
 1.  **Cài Đặt Logitech G HUB:**
