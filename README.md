@@ -123,13 +123,13 @@ Và cấu hình 2 này sẽ cảm thấy ít rung màn hình hơn
 Đề xuất. Màn hình có tần số Hz cao nên để độ mượt cao lên và dữ liệu giảm giật cao và giảm độ nhạy chung của scope
 
 Thay đổi mới về hotkey
-F5 tắt bật auto cho súng single/burst (mk47, m16a4) và các súng DMR
-F6 tắt bật tâm ảo, tâm tự ẩn khi bắn
-Home ẩn bật chương trình
-Insert reset toàn bộ trạng thái
-Pause tạm dừng, tiếp tục chương trình
-Phím chức năng 3, 4, 5, G, X, ~ sẽ tạm dừng ghìm tâm. Này là phím của súng lục, bom, hủy súng, thao tác nhanh yên tâm ko bị kéo tay nhé
-Phím R thay đạn sẽ tự động reset dữ liệu giảm giật về từ đầu cho đúng cây súng và phụ kiện đang cầm, đổi súng 1, súng 2 cũng reset tương tự nên yên tâm dữ liệu giảm giật luôn chuẩn xác từng viên
-Nếu đổi phím ngồi đúng nằm trong game sang phím khác thì đổi lại trong tool tương tự trong game
-Tool chưa có nòng hãm hãy chụp ảnh nòng hãm và thêm bộ dữ liệu vào tool là được
+- F5 tắt bật auto cho súng single/burst (mk47, m16a4) và các súng DMR
+- F6 tắt bật tâm ảo, tâm tự ẩn khi bắn
+- Home ẩn bật chương trình
+- Insert reset toàn bộ trạng thái
+- Pause tạm dừng, tiếp tục chương trình
+- Phím chức năng 3, 4, 5, G, X, ~ sẽ tạm dừng ghìm tâm. Này là phím của súng lục, bom, hủy súng, thao tác nhanh yên tâm ko bị kéo tay nhé
+- Phím R thay đạn sẽ tự động reset dữ liệu giảm giật về từ đầu cho đúng cây súng và phụ kiện đang cầm, đổi súng 1, súng 2 cũng reset tương tự nên yên tâm dữ liệu giảm giật luôn chuẩn xác từng viên
+- Nếu đổi phím ngồi đúng nằm trong game sang phím khác thì đổi lại trong tool tương tự trong game
+- Tool chưa có nòng hãm hãy chụp ảnh nòng hãm và thêm bộ dữ liệu vào tool là được
 *** Đối với các bạn xài chuột khác Logitech lưu ý độ mượt (10-40) không nên để quá cao để đảm bảo chuột nhận lệnh thao tác đúng
