@@ -3,9 +3,9 @@
 
 Chào mừng đến với phần mềm macro PUBG. Vui lòng đọc kỹ hướng dẫn dưới đây để đảm bảo phần mềm hoạt động chính xác.
 Discord server: [Thanos Macro](https://discord.gg/H5DEgj2SuT)
-License key: Cung cấp miễn phí khi join Server
-Download Thanos Macro AimBot Stable v2.1: https://k00.fr/thanosmacrostablev21 | password: 767985
-Link backup Google Drive: https://drive.google.com/file/d/10XO2W0Wd_68uvGZiievbCIJeflKl6Ohb/view?usp=sharing
+- License key: Cung cấp miễn phí khi join Server
+- Download Thanos Macro AimBot Stable v2.1: https://k00.fr/thanosmacrostablev21 | password: 767985
+- Link backup Google Drive: https://drive.google.com/file/d/10XO2W0Wd_68uvGZiievbCIJeflKl6Ohb/view?usp=sharing
 ### **I. YÊU CẦU CÀI ĐẶT BAN ĐẦU**
 
 1.  **Cài Đặt Logitech G HUB:**
