@@ -1,0 +1,209 @@
+Cập nhật ver 1.3.6
+Tâm ảo và tự ẩn khi ngắm bắn (bật tắt GUI/F6)
+Gán Nút tạm dừng/tiếp tục chương trình (bật tắt GUI/Pause)
+Hỗ trợ auto cho các súng DMR (bật tắt GUI)
+Các sửa lỗi nhỏ cho logic giảm giật
+Download tại ⁠download-here , do lỗi trình updater nên v1.3.5 bị treo tiến trình cập nhật tự động, mn tải thủ công v1.3.6 này nhé. Từ phiên bản mới này trở đi trình updater sẽ hoạt động bình thường
+
+Cập nhật ver 1.3.7
+Gán nút bật tắt auto DMR/Single/Burst (F5)
+Hotfix logic về ghìm tâm liên quan độ mượt, dữ liệu giảm giật, tốc độ bắn, độ nhạy.
+Fix đồng bộ dữ liệu từ server về local
+Fix cập nhật tự động khi có phiên bản mới
+Fix webserver phản hồi không đúng mã trạng thái cho tool
+Download tại ⁠download-here
+
+Cập nhật v1.3.8 beta
+Hỗ trợ all chuột sử dụng driver bàn phím và chuột ảo hoạt động ở cấp độ kernel tương tự Interception, vì Interception đã bị phát hiện bởi EAC/FACEIT/Vangaurd nên mình đã tích hợp phiên bản khác của Trung có cách hoạt động tương tự và chưa có báo cáo phát hiện.
+Driver này là bản trả phí và cần bạn test về độ tin cậy, bạn nào có chuột khác ngoài logitech test miễn phí và key lifetime nhé.
+Download tại ⁠download-here
+
+Cập nhật v1.3.9
+Macro chính thức hỗ trợ tất cả chuột (ưu tiên Logitech driver 2021)
+Sửa lỗi logic độ mượt ghìm tâm
+Sửa lỗi các vấn đề đồng bộ và update tool
+Download tại ⁠download-here , kể từ phiên bản v1.3.9 trở đi toàn bộ quá trình sync cấu hình theo license và cập nhật tự động tool đã hoạt động bình thường. Các bạn lưu ý hãy sao lưu dữ liệu lên server trong phiên bản này để đảm bảo toàn vẹn dữ liệu.
+
+Cập nhật v1.3.10
+Sửa lỗi không lưu được súng và phụ kiện + tổ hợp phụ kiện mới
+Sửa lỗi logic tốc độ bắn, bù trừ pixel trong dữ liệu giảm giật. Hiện tại tốc độ bắn khớp với tốc độ bắn thực tế của súng
+Cập nhật đầy đủ dữ liệu đầu nòng và phụ kiện các loại súng
+Hiện tại đã có đủ dữ liệu cho ảnh chụp so khớp súng, phụ kiên, tư thế, chế độ bắn màn hình 2560x1440 và 2560x1600, các cỡ màn khác vui lòng điều chỉnh kích thước trong tab quản lý độ phân giải
+Download tại ⁠download-here
+
+Cập nhật v1.3.11
+Các sửa lỗi nhỏ,....
+
+Cập nhật v1.3.12
+Tích hợp AI hỗ trợ AimBot
+Các sửa lỗi nhỏ,...
+Cập nhật v1.3.13
+Sửa lỗi nhận dạng tư thế
+Thêm làm mượt tâm Aimbot (smooth alpha)
+Bổ sung thư viện cho hoạt động của mô hình
+Bổ sung log CPU GPU
+Số lượng người trong vùng nhận dạng Max target
+Các sửa lỗi nhỏ khác,...
+
+Cập nhật v1.3.17
+Chuyển đổi mô hình AI tự động sang .engine tối ưu tốc độ và khả năng nhận dạng cho từng PC
+Sửa lỗi nhận dạng súng, tư thế
+Cập nhật dữ liệu giảm giật súng
+Fix lỗi dự đoán cho mô hình
+Hiện tại mô hình được đóng gói với 2 mô hình chính, tạm thời loại bỏ 74 mô hình do file đóng gói quá lớn, sẽ có file tải riêng cho mn muốn test
+
+Cập nhật v1.3.18
+Nâng cấp hiệu suất capture FPS, buffer
+Cải tiến logic Aiming
+Tối ưu hóa Preprocessing, NMS Vector, Postprocessing
+Điều chỉnh tọa độ hoàn chỉnh Full HD, hiện tại đã nhận dạng đủ cho Full HD, 2K, 2K+
+Tks 1 bạn trong nhóm đã cung cấp tọa độ chính xác cho màn Full HD nhé!
+
+Cập nhật v1.3.19
+Thay đổi
+Chế độ Ngắm Mặc định: "Nhấn giữ" (Hold to Aim).
+Thoát Nhanh (Phím End):Thoát hoàn toàn ứng dụng.
+Chặn Chạy Nhiều Lần: Chương trình giờ đây sẽ ngăn không cho nhiều phiên bản được mở cùng một lúc.
+Tối ưu
+An toàn Đa luồng: Tích hợp threading.Lock để bảo vệ trạng thái của Tool tránh nhiễu tín hiệu đến BattlEye.
+Tối ưu Logic Aimbot: Target mục tiêu được cải tiến để ưu tiên "khóa" và theo dõi mục tiêu hiện tại.
+Tối ưu hóa bước tiền xử lý ảnh, giảm việc cấp phát bộ nhớ và tăng tốc độ.
+Cải tiến Logic Đổi Tư thế: Logic đổi tư thế và hàng đợi lệnh đã chạy đa luồng.
+Cải tiến luồng Event: Tăng cường hiệu suất và độ ổn định của GUI.
+Sửa lỗi
+Sửa lỗi Timer
+Sửa lỗi Khởi động
+Sửa một lỗi nghiêm trọng khiến bộ lọc Kalman không reset khi mất mục tiêu, đảm bảo Aimbot hoạt động đúng hơn.
+
+Cập nhật v1.3.20
+Cải thiện Độ nhạy phím Shift (zoom)
+Sửa lỗi độ nhạy Shift không cập nhật hoặc không reset khi đang bắn.
+Tinh chỉnh lại để độ nhạy Shift chỉ áp dụng cho Red Dot, Holo và không scope.
+Tối ưu hóa Logic Điều khiển Ghìm tâm
+Khắc phục lỗi ghìm tâm không dừng khi người dùng nhấn các phím chức năng (ví dụ: rút lựu đạn, nhặt đồ,...) trong lúc đang bắn.
+Sửa lỗi ghìm tâm bị kích hoạt sai khi người dùng ném lựu đạn (cả trường hợp giữ chuột phải -> chuột trái và chuột trái -> chuột phải).
+Tăng cường Độ chính xác của Nhận dạng tư thế và chế độ bắn
+*** Chuẩn hóa dữ liệu giảm giật cho súng AUG, ACE32, AKM
+
+Phát hành phiên bản chính thức Thanos Macro v2.0
+Đầy đủ dư liệu giảm giật
+Sửa lỗi nhỏ...
+
+Phát hành chính thức v2.1.1
+Tối ưu
+Tối ưu nhận dạng vũ khí cho tất cả độ phân giải và tự động resize (ảnh mẫu chuẩn là 2K)
+Cập nhật dữ liệu giảm giật cho DMR + m16a4 (giảm tốc độ bắn auto) + mk47 (giảm tốc độ bắn auto), loại bỏ dữ liệu giảm giật cho SR vì không cần thiết
+Đưa toàn bộ phím chức năng mapping ra ngoài GUI, tự do đổi phím chức năng để tối ưu hơn cho các loại bàn phím rút gọn. Mặc định: Home, Insert, End, F5, F6, F8, C, Z, Space, Tab
+Fix lỗi
+Fix lỗi duplicate phím ví dụ nhấn C thành 2 lần C C
+
+Fix Patch v2.1.2 quan trọng
+Phiên bản này sửa các lỗi quan trọng liên quan đến quét súng tự động (khi bấm phím 1 và 2 hay bấm tab việc quét súng sẽ dừng lại, chỉ hoạt động khi scroll chuột hoặc ~, X) và giảm hiệu suất nhận dạng phụ kiện.
+Bảo vệ hàm ngăn chặn crash đột ngột
+
+Fix patch v2.1.3
+Cải thiện nhận dạng đầu nòng vũ khí, loại bỏ nhận diện giảm thanh smg vì giảm thanh không can thiệp độ giật
+Cải thiện bộ nhớ sử dụng cho Aimbotm, cải thiện độ trễ xử lý, detect chuẩn cho card đang sử dụng để tối ưu mô hình
+Sửa lỗi rò rỉ bộ nhớ và sử dụng CPU cao trong vài trường hợp
+
+Fix patch v2.1.4
+Phần Chung
+Tối ưu nhận dạng vũ khí và phụ kiện mẫu mặc định 64x64 tự scale cho độ phân giải khác: dữ liệu hiện tại sẽ nạp sẵn vào bộ nhớ. Phụ kiện sẽ phân loại rõ và sẽ so khớp chính xác cho vũ khí có thể lắp được
+Tăng tốc độ nhận dạng khi tab từ 0.4-0.5s giảm về còn 0.2-0.3s
+Cập nhật dữ liệu màn hình 1600x900
+CUDA
+Cập nhật thư viện AI lên bản mới nhất
+DirectML
+Cập nhật vc++ lên bản mới nhất
+
+Phiên bản ổn định v2.2
+Tối ưu hiệu suất tổng thể Aimbot tăng 55-80% tùy card và driver (2060 chỉ chạy được 60fps capture, hiện tại có thể 120fps)
+Thêm bật tắt toggle cho AI hoạt động
+Cải thiện độ chính xác và độ trễ tổng thể xử lý
+Phân tích mối đe dọa: ưu tiên mục tiêu gần tâm, nhưng phát hiện mục tiêu nguy hiểm hơn thì sẽ tính toán thu hồi tâm mục tiêu nguy hiểm. Ví dụ mục tiêu nguy hiểm cầm súng chuẩn bị bắn
+Phân biệt player thật vs bot
+Nhận diện vũ khí, smoke tránh nhầm lẫn là con người
+Phân biệt được smoke, không nhắm vào mục tiêu sau smoke
+Giữ mục tiêu ổn định
+Chuyển mục tiêu thông minh
+Aim chính xác hơn vào head hoặc body
+Tối ưu tốc độ khi Tab về 0.15-0.25s rất nhanh vì toàn bộ dữ liệu được nạp vào bộ nhớ, Ram sẽ chiếm thêm 1-5mb
+Sửa vài lỗi nhỏ và tối ưu cho Aimbot giải quyết xung đột điều khiển chuột (race condition) khi cả macro và AI đều muốn di chuyển tâm
+
+Phiên bản ổn định v2.2.1
+Nâng cấp python lên 3.13 tăng hiệu suất tổng thể nhưng khởi động Tool sẽ chậm hơn 1 xíu
+Sửa lỗi ngắm đầu SR/DMR cho Aimbot
+Tối ưu hiệu năng DirectML
+Sửa lỗi Memory leak trong capture
+Bảo vệ hàm nhận diện súng
+Chính thức tích hợp mã hóa dữ liệu và ẩn hoàn toàn ứng dụng khỏi anticheat. Tool sẽ giả mạo tiến trình GPU Nvidia hoặc AMD và tạo tiến trình con của dịch vụ windows
+
+Kiểm tra hoạt động các chức năng Core, bảo mật hệ thống, mức chiếm dụng tài nguyên, hotkey, keyboard, mouse,... trước khi hoàn tất khởi động
+Kiểm tra các phần mềm có thể can thiệp hoạt động của Tool
+Tối ưu dữ liệu giảm giật cho AUG và các súng AR khác chuẩn hơn
+Lưu ý từ phiên bản này trở đi trước khi khởi động Tool tắt các phần mềm diệt virus nếu phát hiện dương tính giả. Tắt các chương trình debug, monitor process hoặc dịch ngược mã nguồn để đảm bảo hoạt động
+Phát hành chính thức v2.2.2
+Nâng cấp bảo mật
+Tàng hình & Lẩn tránh hoặc fake anti cheat
+Ẩn cửa sổ
+Thay đổi Tên Tiến trình
+Tạo Luồng Mồi gây nhiễu
+Chống Gỡ lỗi & Phân tích
+Chống Debugger
+Bảo vệ Vùng nhớ
+Chống Hook & Can thiệp từ bên ngoài
+Vượt qua phát hiện Hook: phát hiện anticheat chèn mã kiểm tra vào tool, hệ thống tự vượt qua
+Tạo bản sao bảo vệ Tool
+Gây nhiễu & Chống Phân tích
+Gây nhiễu anticheat nếu bị quét
+Phát hiện phân tích tự ngắt các chức năng quan trọng của Tool
+Bảo vệ Tool & Giám sát
+Tool sẽ dừng hoạt động nếu phát hiện phần mềm dịch ngược mã nguồn, monitor,...
+Mã hóa toàn bộ dữ liệu models và data
+
+Macro
+Cải thiện độ chính xác nhận diện súng và phụ kiện
+Đưa phím Shirt(Nín thở/Boost) ra ngoài giao diện để có thể tùy chỉnh mapping
+Aimbot
+Tăng tốc và cải thiện độ trễ trong mô hình mới cho DirectML và CUDA, mô hình mới được training lại có tên: thanosmacro_v2_full.pack
+Tăng tốc xử lý cho CUDA sử dụng card Nvidia >= 2060
+
+#2.2.3
+Sửa lỗi quan trọng
+Sửa lỗi Aimbot không nhận diện cho một vài dòng card AMD, Cài đặt AI sẽ có thêm chức năng chọn chế độ chụp: Auto, BT/DX, MMS. Mặc định Auto, Tool tự động chọn chế độ hiệu suất nhất. Nếu Aimbot không hoạt động chuyển chế độ chụp thủ công sang BT/DX hoặc MMS
+Sửa lỗi Giữ phím AI không hoạt động ở một số trường hợp
+Đưa phím Pause: Tạm dừng/tiếp tục ra ngoài GUI
+Sửa lỗi giả mạo tiến trình không hoạt động chính xác trong bản win 10 cũ.
+Sửa lỗi không clean bộ nhớ đúng cách khi làm mới dữ liệu súng
+Sửa lỗi buffer pool không hoạt động trong vài trường hợp khi dừng bắn
+Tối ưu
+Hạ mức đặc trưng nhận dạng ảnh từ 1000 về 250 tăng hiệu suất Tab giảm thiểu crash tool cho CPU yếu nhưng không ảnh hưởng tỷ lệ nhận dạng súng
+Tăng tốc độ phản hồi khi resize ảnh cho CUDA
+Bảo mật
+Xáo trộn stack trace các luồng để che giấu các hàm cốt lõi
+#2.2.4
+Sửa lỗi bật tắt AI (chế độ nhấn 1 lần), không hoạt động đúng khi vẫn giữ ngắm bắn. Hiện tại chỉ chọn được 1 trong 2 chế độ toggle hoặc hold với Aimbot.
+Sửa lỗi đồng bộ dữ liệu từ Server về PC
+Sửa lỗi "Không tìm thấy tệp updater.exe" và tự khởi động lại luồng dữ liệu không hợp lý
+Tối ưu cách quản lý luồng bộ nhớ CUDA cho card 2xxx và 3xxx
+Tối ưu hàng đợi I/O Binding cho CUDA+DirectML
+Bỏ giới hạn đồng bộ tốc độ AI và Macro, hiện tại điều khiển chuột của AI và Macro sẽ hoạt động độc lập cùng di chuyển. Phản ứng AI dí theo mục tiêu khi bắn sẽ diễn ra ngay lập tức bằng với tốc độ khi chỉ ngắm không bắn. Lưu ý điều chỉnh tốc độ ngang dọc giảm so với giá trị hiện tại của bản 2.2.3 để đảm bảo an toàn.
+
+#2.2.5
+Thay đổi về cách di chuột của Aimbot
+Cài đặt AI: smoothing alpha bây giờ sẽ là hệ số 0->1. Đưa cài đặt DPI, mouse sensitivity, FOV width+height tương tứng FOV trong game ra ngoài GUI mặc định là width:90-height:59 nếu trong game bạn để 103 chỉnh lại tương ứng 103-90. Tính toán cách di tâm mượt mà và chuẩn hơn cho cách hoạt động mới.
+Loại bỏ tốc độ ngang, dọc: Tính toán tự động theo DPI+Sens+FOV để tạo ra chuyển động gần giống phản ứng con người
+Alpha càng gần 1.0: Aiming càng "gắt" và phản ứng nhanh, ít độ trễ (ít mượt).
+Alpha càng gần 0.0: Aiming càng mượt mà, ổn định nhưng sẽ có độ trễ cảm nhận cao hơn.
+Điều chỉnh logic Max Targets: hiện tại bạn nên chỉnh từ 1 thành 3-4 để đảm bảo độ ưu tiên và giữ mục tiêu hiện tại chuẩn hơn.
+Thay đổi logic macro và aimbot nếu cùng hoạt động cho sửa đổi mới nhất
+Thay đổi hoán vị trí nhận diện Tab: Trong Điều chỉnh dữ liệu sẽ có 1 chức năng mới cho phép bạn hoán vị trí Hub vũ khí. Mặc định thứ tự là vũ khí 1 -> Vũ khí 2. Hoán vị trị thì sẽ là vũ khí 2 -> vũ khí 1. Điều chỉnh nếu bạn đã thay đổi cài đặt hub vũ khí trong game.
+Updater: bây giờ tiến trình cập nhật tự động sẽ có giao diện trực quan và cho bạn biết nó đang diễn ra như thế nào. Tự khởi động lại Tool khi hoàn tất
+
+#v2.2.6
+Fix lỗi crash Tool khi spam tab cho CPU yếu
+Fix lỗi Fov ngang, dọc không hoạt động chính xác nếu giá trị khác 90,59
+Fix lỗi smoothing alpha bị trùng lặp làm x2 giá trị smoothing
+Download phân nhánh Thanos Macro AimBot Stable v2.2.6 AMD DirectML: https://drive.google.com/file/d/1M_vmuZGH70ux-niJJwnPeRq00MBa5obs/view?usp=sharing
+Download Thanos Macro AimBot Stable v2.2.6 CUDA >= 2060: https://drive.google.com/file/d/1VplfxrXcQGICSqEd_NcjHaJ76GRzTU0O/view?usp=sharing
+Discord Server: https://discord.gg/H5DEgj2SuT
