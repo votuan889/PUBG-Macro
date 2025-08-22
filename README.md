@@ -6,7 +6,9 @@ Discord server: [Thanos Macro](https://discord.gg/H5DEgj2SuT)
 - License key: Cung cấp miễn phí khi join Server
 ###Stable v2.2.6
 - Download phân nhánh Thanos Macro AimBot Stable v2.2.6 AMD DirectML: https://drive.google.com/file/d/1M_vmuZGH70ux-niJJwnPeRq00MBa5obs/view?usp=sharing
-- Download Thanos Macro AimBot Stable v2.2.6 CUDA >= 2060: https://drive.google.com/file/d/1VplfxrXcQGICSqEd_NcjHaJ76GRzTU0O/view?usp=sharing 
+- Download Thanos Macro AimBot Stable v2.2.6 CUDA >= 2060: https://drive.google.com/file/d/1VplfxrXcQGICSqEd_NcjHaJ76GRzTU0O/view?usp=sharing
+
+<img width="632" height="664" alt="Screenshot 2025-08-22 233031" src="https://github.com/user-attachments/assets/9136f58e-0ba9-4b4f-96a3-d42e5100c064" />
 ### **I. YÊU CẦU CÀI ĐẶT BAN ĐẦU**
 
 1.  **Cài Đặt Logitech G HUB:**
